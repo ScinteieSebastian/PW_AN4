@@ -1,0 +1,47 @@
+{
+  "name": "lab-6",
+  "version": "1.0.0",
+  "description": "Laboratorul 6 de Progoramare Web",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/programareweb2020/pwebalexandruhogea.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Alexandru Hogea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/programareweb2020/pwebalexandruhogea/issues"
+  },
+  "homepage": "https://gitlab.com/programareweb2020/pwebalexandruhogea#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.28",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.3",
+    "nodemailer": "^6.4.6",
+    "rand-token": "^1.0.1",
+    "socket.io": "^2.3.0",
+    "uuidv4": "^6.0.8",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
